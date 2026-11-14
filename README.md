@@ -213,6 +213,7 @@ These offers ran last Black Friday. Codes are probably expired. Useful as a prev
 | [Battle Ready Laravel](https://battle-ready-laravel.com/) | A guide to auditing, testing, fixing, and improving your Laravel applications. | 30% OFF using coupon code 30BLACKFRIDAY2025 |
 | [Test Driving Rails](https://strzibny.gumroad.com/l/testdrivingrails/prerelease?a=912288051) | IMPORTANT: The book is currently offered in beta in PDF. | 30% OFF using code prerelease |
 | [Laravel Queues in Action](https://learn-laravel-queues.com/#buy) | Learn how to use the queue system to make your applications faster and more reliable while reducing running costs. | 30% OFF for individuals, 20% OFF for team copy |
+| [Wireless Operator](https://training.thexero.co.uk/blackfriday) | Learn hands-on Wi-Fi pentesting, from 802.11 frames to WPA3, enterprise Wi-Fi, rogue APs, wireless pivots and fuzzing, with a simulated lab and live coaching. | 67% OFF: $197 instead of $599, until Dec 1 |
 
 ### Starter Kits
 
