@@ -1,3 +1,23 @@
+Last login: Sun Nov 22 07:59:29 on console
+toby@MacBook-Pro ~ % git clone https://github.com/tushargugnani/awesome-black-friday-for-developers/      
+Cloning into 'awesome-black-friday-for-developers'...
+remote: Enumerating objects: 291, done.
+remote: Counting objects: 100% (160/160), done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 291 (delta 144), reused 115 (delta 109), pack-reused 131 (from 1)
+Receiving objects: 100% (291/291), 119.19 KiB | 2.17 MiB/s, done.
+Resolving deltas: 100% (157/157), done.
+toby@MacBook-Pro ~ % cd awesome-black-friday-for-developers 
+toby@MacBook-Pro awesome-black-friday-for-developers % vim deals/2026.yaml 
+toby@MacBook-Pro awesome-black-friday-for-developers % python3 scripts/validate.py && python3 scripts/build_readme.py
+validation failed:
+ - 2026.yaml: Wireless Operator: description too long (182 chars)
+toby@MacBook-Pro awesome-black-friday-for-developers % vim deals/2026.yaml 
+toby@MacBook-Pro awesome-black-friday-for-developers % vim deals/2026.yaml
+toby@MacBook-Pro awesome-black-friday-for-developers % python3 scripts/validate.py && python3 scripts/build_readme.py
+ok: 150 deals
+wrote README.md (105 in 2025, 45 in 2026)
+toby@MacBook-Pro awesome-black-friday-for-developers % cat README.md 
 # Awesome Black Friday & Cyber Monday Deals for Developers and Designers 2026
 
 A curated list of **software, design tools, UI kits, and courses** on sale for Black Friday / Cyber Monday.
@@ -30,6 +50,7 @@ Star the repo if you want a reminder when 2026 deals start landing.
 | [Karma.Domains](https://karma.domains/en/black-friday/) | Expired domain search with Wayback Machine spam analysis, Karma Score, SEO metrics, a Public API and an MCP server. | Black Friday 2026: 50% OFF yearly Unlimited & Pro plans (Nov 27 - Nov 30, 2026 UTC) |
 | [JuxtaCode](https://juxtacode.app) | Compare Git branches and resolve merge conflicts with ease on macOS. | Black Friday 2026: 40% OFF with code BLACKFRIDAY26, direct purchase only (Nov 20 - Dec 1, 2026) |
 | [pwn.guide](https://pwn.guide) | Hands-on ethical hacking and cybersecurity tutorials, plus CompTIA Security+ and PenTest+ certification training. | Black Friday 2026: 20% OFF all plans forever, including lifetime, with code BLKFRI20 (Nov 1 - Dec 5, 2026) |
+| [Wireless Operator](https://wirelessoperator.io) | Hands-on Wi-Fi pentesting mentorhsip programme with wireless pivots and fuzzing, simulated lab and live coaching. | Black Friday 2026: 67% OFF ($599 to $197), no code needed (Nov 10 - Dec 1, 2026) |
 | [SmoothCapture](https://www.smoothcapture.app/pricing) | Mac app that turns screen recordings into polished app demo videos, with auto zoom, a smooth cursor and real 3D iPhone, iPad and Mac models. | Black Friday 2026: 50% OFF Lifetime ($149 to $74.50) and Personal ($79 to $39.50) with code BLACKFRIDAY26 (Nov 3 - Dec 2, 2026) |
 | [Karve](https://karve.dev/pricing/?utm_source=blackfridaydeals-dev&utm_campaign=bf2026) | Native Windows HTTP client for the .http/.rest files in your repos, with cross-repo search, environments, and searchable history. | Black Friday 2026: 75% OFF, one-time $39.99 to $9.99 on the Microsoft Store, no code needed, 15-day free trial (until Dec 1, 2026) |
 | [anon.li](https://anon.li/pricing) | Open-source email aliases, end-to-end encrypted file sharing and encrypted forms, with a CLI, API and MCP server. | Black Friday 2026: 40% OFF all paid plans for 12 months with code BLKFRI40, card checkout (Nov 2 - Dec 6, 2026) |
@@ -270,3 +291,4 @@ Some links use our referral codes, including links that go through [blackfridayd
 ## License
 
 [CC0 1.0](LICENSE) (public domain dedication). Product names and trademarks belong to their owners.
+toby@MacBook-Pro awesome-black-friday-for-developers % 
